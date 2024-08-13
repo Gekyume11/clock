@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    height: 100dvh;
+    background: #333;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    font-size: clamp(0.875rem, 0.625rem + 1.4286vw, 1.875rem);
+}
+.keyword { color: #cc99cd }
+.variable { color: #f8c555 }
+.string { color: #7ec699 !important }
